@@ -1,0 +1,12 @@
+[package]
+name = "cursed-dark"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+ash = { version = "0.38", features = ["loaded"] }
+ash-window = "0.13"
+winit = "0.29"
+raw-window-handle = "0.6"
+glam = "0.29"
+anyhow = "1"
